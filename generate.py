@@ -1,5 +1,13 @@
 import pandas as pd
 
+def generate_url_dom(url):
+    dom = ""
+    if url == "":
+        dom += "<div style=\"color: #888;\">No project page found</div>"
+    else:
+        dom += "<a href=\"" + url + "\">Project page</a>"
+    return dom
+
 def generate_youtube_dom(youtube_id):
     embed_link = "https://www.youtube.com/embed/" + youtube_id
     dom = ""
@@ -11,10 +19,16 @@ def generate_youtube_dom(youtube_id):
 def generate_paper_dom(row):
     dom = ""
     has_youtube = not pd.isnull(row["youtube"])
+    has_url = not pd.isnull(row["web"])
+    dom += "<hr class=\"invisible\" />"
     if has_youtube:
         dom += "<div class=\"row\"><div class=\"col-md-8 col-sm-6 col-xs-12\">"
     dom += "<h5>" + row["title"] + "</h5>\n"
     dom += "<p>" + row["authors"] + "</p>\n"
+    if has_url:
+        dom += generate_url_dom(row["web"])
+    else:
+        dom += generate_url_dom("")
     if has_youtube:
         dom += "</div><div class=\"col-md-4 col-sm-6 col-xs-12\">"
         dom += generate_youtube_dom(row["youtube"])
