@@ -4,14 +4,14 @@ VC1,"Yanran Li, Xiaosong Yang, Sebastian Iulian Poiana, Ehtzaz Chaudhry, Jianjun
 VC1,"Mengqiang Wei, Chunxia Xiao and Qingan Yan",Joint Bilateral Propagation Upsampling for Unstructured Multi-View Stereo,,,
 VC1,"Ning Kang, Junxuan Bai, Junjun Pan and Hong Qin",Interactive Animation Generation of Virtual Characters Using Single RGB-D Camera,,,
 VC1,"Yanlong Tang, Ruofeng Tong, Xiaoguang Han, Yue Li and Liqian Ma",Expressive Facial Style Transfer for Personalized Memes Mimic,,,
-VC2,"Hideki Todo, Tatsuya Yatagawa, Masataka Sawayama, Yoshinori Dobashi and Masanori Kakimoto",Image-Based Translucency Transfer through Correlation of Multi-Scale Spatial Color Distribution,,,
+VC2,"Hideki Todo, Tatsuya Yatagawa, Masataka Sawayama, Yoshinori Dobashi and Masanori Kakimoto",Image-Based Translucency Transfer through Correlation of Multi-Scale Spatial Color Distribution,,http://hideki-todo.com/cgu/projects/MaterialTransfer/index.html,
 VC2,"Yun Zhang, Yu-Kun Lai and Fang-Lue Zhang",Stereoscopic Image Stitching with Rectangular Boundaries,,,
 VC2,Peter Kán and Hannes Kaufmann,DeepLight: Light Source Estimation for Augmented Reality Using Deep Learning,,,
 VC2,Frederico Abraham and Waldemar Celes,Multiresolution Visualization of Massive Black Oil Reservoir Models,,,
-VC2,"Zeyu Wang, Shiyu Qiu, Qingyang Chen, Alexander Ringlein, Julie Dorsey and Holly Rushmeier",AniCode: Authoring Coded Artifacts for Network-Free Personalized Animations,,,
+VC2,"Zeyu Wang, Shiyu Qiu, Qingyang Chen, Alexander Ringlein, Julie Dorsey and Holly Rushmeier",AniCode: Authoring Coded Artifacts for Network-Free Personalized Animations,,,qqzOLu47alw
 VC3,"José Ezequiel Soto Sánchez, Luiz Henrique de Figueiredo and Asla Medeiros E Sá",Acquiring periodic tilings of regular polygons from images,,,
 VC3,"Sangjun Han, Myung-Soo Kim, Seung- Hyun Yoon and Gershon Elber",Minkowski Sum Computation for Planar Freeform Geometric Models using G1-Biarc Approximation and Interior Disks,,,
-VC3,"Tao Jiang, Xiaosong Yang, Jianjun Zhang, Feng Tian, Shuang Liu, Nan Xiang and Kun Qian",Huber-L1 Based Non-Isometric Surface Registration,,,
+VC3,"Tao Jiang, Xiaosong Yang, Jianjun Zhang, Feng Tian, Shuang Liu, Nan Xiang and Kun Qian",Huber-L1 Based Non-Isometric Surface Registration,,,MNI1E_NhPOo
 VC3,"Jiangbei Hu, Shengfa Wang, Yi Wang, Fengqi Li and Zhongxuan Luo",A Lightweight Methodology of 3D Printed Objects utilizing Multi-Scale Porous Structures,,,
 VC3,Bastian Krayer and Stefan Müller,Generating Signed Distance Fields on the GPU with Ray Maps,,,
 VC4,"Zhenyang Zhu, Masahiro Toyoura, Kentaro Go, Kenji Kashiwagi, Xiaoyang Mao and Issei Fujishiro",Processing images for red–green dichromats compensation via naturalness- and information- preservation considered recoloring,,,
@@ -21,7 +21,7 @@ VC4,"Juncheng Liu, Zhouhui Lian, Jianguo Xiao, Paul L. Rosin, Xianfang Sun",Imag
 VC4,"Xinyue Zhang, Yuanhao Li, Zhiyi Zhang, Shaojun Hu and Kouichi Konno",Intelligent Chinese Calligraphy Beautification from Handwritten Characters for Robotic Writing,,,
 VC5,Qianhui Men and Howard Leung,Retrieval of spatial-temporal motion topics from 3D skeleton data,,,
 VC5,"Zhuming Zhang, Chu Han, Xinghong Hu, Tien-Tsin Wong, Shengfeng He, Xueting Liu and Haichao Zhu",Deep Binocular Tone Mapping,,,
-VC5,"Mohammed Ali, Mark Jones, Xianghua Xie and Mark Williams",TimeCluster: Dimension Reduction of Temporal Data for Visual Analytics,,,
+VC5,"Mohammed Ali, Mark Jones, Xianghua Xie and Mark Williams",TimeCluster: Dimension Reduction of Temporal Data for Visual Analytics,,http://cs.swansea.ac.uk/~csmark/publications/2019_TimeCluster.html,arA3XuXZ7OQ
 VC5,"Shufang Lu, Xuefeng Ding, Fei Gao, Jiazhou Chen, Wei Jiang, Craig S. Kaplan and Xiaogang Jin",Depth-aware Image Vectorization and Editing,,,
 VC6,"Antoine Lhuillier, Daniel Weiskopf and Mereke Van Garderen",Density-based label placement,,,
 VC6,"Renato da Silva, Carlos Zampieri, Fabio Pavan Rolli, Rosane Minghim, José Paiva and Guilherme Pimentel Telles",The Visual SuperTree: Similarity-based Multi-Scale Visualization,,,
