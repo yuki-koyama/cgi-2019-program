@@ -3,7 +3,7 @@ import pandas as pd
 def generate_url_dom(url):
     dom = ""
     if url == "":
-        dom += "<div style=\"color: #888;\">No project page found</div>"
+        dom += "<div class=\"text-muted\">No project page found</div>"
     else:
         dom += "<a href=\"" + url + "\">Project page</a>"
     return dom
@@ -33,7 +33,7 @@ def generate_paper_dom(row):
     if has_youtube:
         dom += generate_youtube_dom(row["youtube"])
     else:
-        dom += "<div style=\"color: #888;\">No YouTube video found</div>"
+        dom += "<div class=\"text-muted\">No YouTube video found</div>"
     dom += "</div></div>"
     return dom
 
