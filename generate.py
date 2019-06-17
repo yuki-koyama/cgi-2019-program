@@ -17,22 +17,24 @@ def generate_youtube_dom(youtube_id):
     return dom
 
 def generate_paper_dom(row):
-    dom = ""
     has_youtube = not pd.isnull(row["youtube"])
     has_url = not pd.isnull(row["web"])
+
+    dom = ""
     dom += "<hr class=\"invisible\" />"
-    if has_youtube:
-        dom += "<div class=\"row\"><div class=\"col-md-8 col-sm-6 col-xs-12\">"
+    dom += "<div class=\"row\"><div class=\"col-md-8 col-sm-6 col-xs-12\">"
     dom += "<h5>" + row["title"] + "</h5>\n"
     dom += "<p>" + row["authors"] + "</p>\n"
     if has_url:
         dom += generate_url_dom(row["web"])
     else:
         dom += generate_url_dom("")
+    dom += "</div><div class=\"col-md-4 col-sm-6 col-xs-12\">"
     if has_youtube:
-        dom += "</div><div class=\"col-md-4 col-sm-6 col-xs-12\">"
         dom += generate_youtube_dom(row["youtube"])
-        dom += "</div></div>"
+    else:
+        dom += "<div style=\"color: #888;\">No YouTube video found</div>"
+    dom += "</div></div>"
     return dom
 
 def generate_session_dom(data, session_name, session_data):
