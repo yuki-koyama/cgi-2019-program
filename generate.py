@@ -1,9 +1,24 @@
 import pandas as pd
 
+def generate_youtube_dom(youtube_id):
+    embed_link = "https://www.youtube.com/embed/" + youtube_id
+    dom = ""
+    dom += "<div class=\"embed-responsive embed-responsive-16by9\">"
+    dom += "<iframe class=\"embed-responsive-item\" src=\"" + embed_link + "\"></iframe>"
+    dom += "</div>"
+    return dom
+
 def generate_paper_dom(row):
     dom = ""
+    has_youtube = not pd.isnull(row["youtube"])
+    if has_youtube:
+        dom += "<div class=\"row\"><div class=\"col-md-8 col-sm-6 col-xs-12\">"
     dom += "<h5>" + row["title"] + "</h5>\n"
     dom += "<p>" + row["authors"] + "</p>\n"
+    if has_youtube:
+        dom += "</div><div class=\"col-md-4 col-sm-6 col-xs-12\">"
+        dom += generate_youtube_dom(row["youtube"])
+        dom += "</div></div>"
     return dom
 
 def generate_session_dom(data, session_name, session_data):
